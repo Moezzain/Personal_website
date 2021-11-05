@@ -1,6 +1,6 @@
 {
-  "name": "Moez Personal Website",
-  "homepage": "https://github.com/Moezzain",
+  "name": "Moez_Personal_Website",
+  "homepage": "https://github.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "svgr": "svgr -d src/components/icons/ assets/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

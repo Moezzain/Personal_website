@@ -12,6 +12,17 @@ code {
     monospace;
 }
 
+.education-edit {
+  background-color: #f3f5ff;
+  max-width: 220px;
+width: 100%;
+padding: 16px 10px 19px 35px;
+border-radius: 36px;
+font-size: 17px;
+letter-spacing: 0.2px;
+position: relative;
+}
+
 .pickgradient {
   display:inline-block;
   opacity: 0.55;
@@ -21,7 +32,6 @@ code {
   background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
 .img-to-overlay{

@@ -25,7 +25,7 @@ class Banner extends Component {
                         </div>
                         <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.3s">
                             <div className="fl-btn btn-general btn-hv-common color-s1">
-                                <a href="https://drive.google.com/uc?export=download&id=15fjKBlO2qC7aUOCbweUNdHUb4lXRbxaz" download className="btn-inner f-w500 color-d6 border-corner5 lt-sp01">Download Resume</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1wVMX_JKjc7QzXtdKlInzqd8IUAIh8l_E" download className="btn-inner f-w500 color-d6 border-corner5 lt-sp01">Download Resume</a>
                             </div>
                         </div>
                     </div>

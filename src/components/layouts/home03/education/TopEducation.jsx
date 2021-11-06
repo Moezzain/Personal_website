@@ -61,7 +61,7 @@ class TopEducation extends Component {
                     id: 4,
                     classname: 'experience-box experience-box-line t3',
                     datawow: '0.8s',
-                    year: '2018 - 2020',
+                    year: '06/2021 – 09/2021',
                     title: 'Full stack Developer at',
                     office: 'Utopia Tech PTY LTD',
                     text: 'Part-time employee working in an Agile environment using technolgies such as Next.js, Node, AWS lambda, etc..'
@@ -70,7 +70,7 @@ class TopEducation extends Component {
                     id: 5,
                     classname: 'experience-box experience-box-line t3',
                     datawow: '1s',
-                    year: '12/2018 – 12/2020',
+                    year: '09/2021 – 11/2021',
                     title: 'React Developer at',
                     office: 'Friyay Company',
                     text: 'Part-time employee using technolgies such as React js, graphQl relay, Redux, froala editor, etc..'
@@ -79,7 +79,7 @@ class TopEducation extends Component {
                     id: 6,
                     classname: 'experience-box t3',
                     datawow: '1.2s',
-                    year: '12/2020 – 03/202',
+                    year: '05/2021 – present',
                     title: 'Full-stack Developer at',
                     office: 'My Ticket Company',
                     text: 'Full-time employee using technologies such as React js, Node js, MongoDB, etc..'

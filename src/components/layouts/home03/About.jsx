@@ -16,10 +16,10 @@ class About extends Component {
                                 <h2 className="title-section color-d12 mg-b41">Hi, I am here to help with your next project!</h2>
                                 <div className="description">
                                     <p className="lt-sp01">
-                                    Hi, my name is Moez. I am a Web Developer and a JavaScript and Reactjs enthusiast. I have 3 years of strong experience as a Full-Stack web developer with a solid understanding of front-end technologies, MVC frameworks, Restful web services, and Data Base designing. Check my portfolio.
+                                    Hi, my name is Moez. I am a Web Developer and a JavaScript and Reactjs enthusiast. I have 2 years of strong experience as a Full-Stack web developer with a solid understanding of front-end technologies, MVC frameworks, Restful web services, and Data Base designing. Check my portfolio.
                                     </p>
                                     <p className="lt-sp01">
-                                    My primary focus is on building Front End Web Applications. I love building dynamic, responsive, interactive, and completely SEO-friendly web applications. Check my portfolio.
+                                    My primary focus is on building Front End Web Applications. I love building dynamic, responsive, interactive, and completely SEO-friendly web applications.
                                     </p>
                                 </div>
                                 </div>
@@ -27,7 +27,7 @@ class About extends Component {
                             <div className="fact">
                                 <NumberCount />
                                 <div className="btn-contact bg-s1 text-center">
-                                    <h4 className="title color-d12">Get a project? Let’s talk.</h4>
+                                    <h4 className="title color-d12">Got a project? Let’s talk.</h4>
                                     <Link to="#" className="email color-s1 color-d14">moezzain94@gmail.com</Link>
                                 </div>
                             </div>

@@ -14,7 +14,7 @@ class Specilizing extends Component {
                     altimg: 'images',
                     title: 'Front End Developer',
                     text01: "I'm a React Developer",
-                    text02: "3 years of experience."
+                    text02: "2 years of experience."
                 },
                 {
                     id: 2,
@@ -32,7 +32,7 @@ class Specilizing extends Component {
                     altimg: 'images',
                     title: 'Mobile View Responsiveness',
                     text01: "Mobile Screens",
-                    text02: "3 years of experience."
+                    text02: "2 years of experience."
                 }
             ]
         }

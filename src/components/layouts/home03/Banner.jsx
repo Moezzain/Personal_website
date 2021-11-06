@@ -14,7 +14,7 @@ class Banner extends Component {
                             <h1 className="cd-headline clip is-full-width title color-d2 mg-b31">
                                 <span>Hello, </span>
                                 <span className="cd-words-wrapper color-d6">
-                                <b className="is-visible">I’m Moez!</b>
+                                <b  className="is-visible">I’m Moez!</b>
                                 {/* <b>I’m Olivia!</b> */}
                                 {/* <b>I’m Amelia!</b> */}
                                 </span>
@@ -30,7 +30,7 @@ class Banner extends Component {
                         </div>
                     </div>
                     <div className="featured-post border-corner-bl">
-                        <img src="images/section/35.jpg" alt="images" />
+                        <img src="images/section/test.jpg" alt="images" />
                         <div className="site-list has-border text-center animate-element wow delay5 fadeInUp" data-wow-delay="0.3s">
                             <a href="https://www.linkedin.com/in/moez-babiker-675076167/" className="bg-s2"><i className="fa fa-linkedin" aria-hidden="true" /></a>
                             <a href="https://www.upwork.com/freelancers/~010611c151ccc2897f" style={{backgroundColor: '#6FDA44'}}><YourSvg /></a>

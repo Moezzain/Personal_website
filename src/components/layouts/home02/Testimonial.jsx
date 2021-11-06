@@ -7,43 +7,61 @@ class Testimonial extends Component {
             images: [
                 {
                     id: 1,
-                    image: './images/blog/04.jpg',
+                    image: 'https://media-exp1.licdn.com/dms/image/C4E03AQEf0pJUYhqE-g/profile-displayphoto-shrink_800_800/0/1605323406573?e=1641427200&v=beta&t=_fAEt41cUGOvB5lEJwluZ0XUpZkRKWmIcyGc7hvZqHg',
                     alt: 'images',
                 },
                 {
                     id: 2,
-                    image: './images/blog/09.jpg',
+                    image: './images/blog/10.jpg',
+                    // image: 'https://media-exp1.licdn.com/dms/image/C4E03AQEf0pJUYhqE-g/profile-displayphoto-shrink_800_800/0/1605323406573?e=1641427200&v=beta&t=_fAEt41cUGOvB5lEJwluZ0XUpZkRKWmIcyGc7hvZqHg',
                     alt: 'images',
                 },
-                {
-                    id: 3,
-                    image: './images/blog/10.jpg',
-                    alt: 'images',
-                }
+                // {
+                //     id: 3,
+                //     image: './images/blog/10.jpg',
+                //     alt: 'images',
+                // }
             ],
             testimonial: [
                 {
                     id: 1,
-                    text: '“Excellent design, great communication, fast turnaround of revisions. I had a clear vision of what I wanted. Ranaroy did not just deliver it he a improved upon it substantially. Recommended!”',
-                    name: 'Davin Heily',
-                    office: 'at CEO Brisben'
+                    text: `“Great experience working with Moez.
+                    He work like professional and cooperate very well.
+                    Will moving my all react project to him.
+                    HIGHLY RECOMMENDED !!!”`,
+                    name: 'Ankit  Kumar',
+                    office: 'Upwork Client',
+                    url: 'https://www.linkedin.com/in/ceoankityadav/'
                 },
                 {
                     id: 2,
-                    text: '“Excellent design, great communication, fast turnaround of revisions. I had a clear vision of what I wanted. Ranaroy did not just deliver it he a improved upon it substantially. Recommended!”',
-                    name: 'Davin Heily',
-                    office: 'at CEO Brisben'
+                    text: `“Completed the job in less than an hour though the task was complex.
+                    Did a very fine job. Really impressed. 
+                    Will work with him again.”`,
+                    name: 'Ankit  Kumar',
+                    office: 'Upwork Client',
+                    url: 'https://www.linkedin.com/in/ceoankityadav/'
                 },
-                {
-                    id: 3,
-                    text: '“Excellent design, great communication, fast turnaround of revisions. I had a clear vision of what I wanted. Ranaroy did not just deliver it he a improved upon it substantially. Recommended!”',
-                    name: 'Davin Heily',
-                    office: 'at CEO Brisben'
-                }
-            ]
-        }            
+                // {
+                //     id: 3,
+                //     text: '“Excellent design, great communication, fast turnaround of revisions. I had a clear vision of what I wanted. Ranaroy did not just deliver it he a improved upon it substantially. Recommended!”',
+                //     name: 'Davin Heily',
+                //     office: 'at CEO Brisben'
+                // }
+            ],
+            current: 1
+        }
     }
-    
+
+    componentDidMount = () => {
+        setInterval(() => {
+            if (this.state.current !== this.state.images.length - 1)
+                this.setState({ current: 1 })
+            else
+                this.setState({ current: ++this.state.current })
+
+        }, 5000);
+    }
     render() {
         return (
             <div id="c_clients" className="tf-modalbox-wrapper">
@@ -53,18 +71,18 @@ class Testimonial extends Component {
                             <div className="text-testimonial color-d17">Testimonial</div>
                         </div>
                         <div className="background-transparent bg-cl4"></div>
-                        <div className="container d-lg-flex">                         
+                        <div className="container d-lg-flex">
                             <div className="col-left animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">
                                 <div className="flat-spacer" data-desktop={4} data-mobile={0} data-smobile={0} />
                                 <div className="wrap-box bg-white position-relative">
-                                    <div className="featured-post mg-b27"><img src="images/blog/11.jpg" alt="images" /></div>
+                                    <div className="featured-post mg-b27"><img src={this.state.images[this.state.current - 1].image} alt="images" /></div>
                                     <div className="images-list d-flex justify-content-between">
                                         {
-                                            this.state.images.map(data =>(
-                                                <img src={data.image} alt={data.alt} key={data.id}/>
+                                            this.state.images.map(data => (
+                                                <img style={{ borderRadius: '10px' }} src={data.image} alt={data.alt} key={data.id} />
                                             ))
                                         }
-                                        
+
                                     </div>
                                     <div className="quote"><img src="images/testimonial/09.png" alt="images" /></div>
                                 </div>
@@ -85,7 +103,7 @@ class Testimonial extends Component {
                                                             {data.text}
                                                         </p>
                                                         <div className="client-detail">
-                                                            <span className="color-d6 f-w500">{data.name}</span> {data.office}
+                                                            <a href={data.url} style={{ color: '#627fff' }} className="color-d6 f-w500">{data.name}</a> {data.office}
                                                         </div>
                                                     </div>
                                                 ))
@@ -94,7 +112,7 @@ class Testimonial extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div>               
+                        </div>
                     </section>
                 </div>
             </div>

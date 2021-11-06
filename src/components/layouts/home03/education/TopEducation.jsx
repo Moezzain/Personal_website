@@ -71,7 +71,7 @@ class TopEducation extends Component {
                     classname: 'experience-box experience-box-line t3',
                     datawow: '1s',
                     year: '12/2018 – 12/2020',
-                    title: 'Part time React Developer at',
+                    title: 'React Developer at',
                     office: 'Friyay Company',
                     text: 'Part-time employee using technolgies such as React js, graphQl relay, Redux, froala editor, etc..'
                 },

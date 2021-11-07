@@ -20,7 +20,7 @@ class Banner extends Component {
                                 </span>
                             </h1>
                             <p className="lt-sp02 mg-b51">
-                                Hi, i m Moez, professional Web Developer with 3 years <br />of experience. Need any help?
+                                Hi, i m Moez, professional Software Engineer with 2 years <br />of experience as a web developer. Need any help?
                             </p>
                         </div>
                         <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.3s">
